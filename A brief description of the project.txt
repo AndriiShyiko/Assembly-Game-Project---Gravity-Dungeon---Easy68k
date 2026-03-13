@@ -1,0 +1,24 @@
+Project Title: The Gravity Dungeon
+Theme: Alternative Physics, Games Fleadh 2026
+
+1. Narrative Overview.
+
+"The Gravity Dungeon" is a text-based adventure where the player is trapped in a gravity shifting underground labyrinth. Unlike traditional dungeons, the primary obstacle is not just monsters, but the laws of physics themselves. The player discovered a "Gravity Inverter" — a device that allows them to control their personal gravity to the floor, ceiling, or walls. To escape, the player must navigate through dangerous hallways, survive encounters with mimics and shadows, and ultimately solve a philosophical "Mind Game" in a room of white marble where their perspective of reality is the final key to freedom.
+
+2. Core Features.
+
+This project demonstrates the following:
+
+Core Logic & Branching: The game uses a modular structure with subroutines to manage different "Rooms" and "Hallways" creating a path based on player choice.
+
+Alternative Physics Engine: A custom coordinate system tracks the player's physical orientation. Movement and interaction possibilities change dynamically based on whether the player is on the Floor, Ceiling, or Side Walls.
+
+Advanced Data Validation: All player commands are processed through a robust, null-terminated string comparison loop. This ensures that only valid inputs (e.g. "SHIFT", "REFLECTION") progress the game state, effectively handling "garbage" data.
+
+Resource Management: A health system manages the consequences of player decisions. Resources are accumulated or consumed based on environmental interactions.
+
+Dynamic World State: The game features triggered event such as Inverter Malfunctions that alter the gameplay conditions and difficulty in real-time.
+
+3. The Final Challenge.
+
+The game concludes with a "Mind Game" in the secret room. This room serves as the ultimate test of the project's theme. The player is presented with three symbolic exits (The Mirror, The Iron Grate, and The Pedestal). To win, the player must interpret ancient hints and use string-based logic to choose the path of "Transparency," proving that they have mastered both the physical mechanics of gravity and the mental mechanics of the dungeon's puzzles.
